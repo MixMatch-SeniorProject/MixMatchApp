@@ -1,0 +1,38 @@
+import { Platform } from 'react-native';
+
+export const Colors = {
+  light: {
+    background: '#edeaf5',
+    surface: '#E3D9F2',
+    box: '#C6B3E5',
+    card: '#E3D9F2',
+    cardBorder: '#C6B3E5',
+    text: '#1A1A1A',
+    subtext: '#343434',
+    border: '#442772',
+    primary: '#b596e7',
+    secondary: '#5A3498',
+    icon: '#7A7A86',
+    tabIconDefault: '#8D67CB',
+    tabIconSelected: '#FDFDFD',
+    success: '#22C55E',
+    danger: '#EF4444',
+  },
+  dark: {
+    background: '#121212',
+    surface: '#1B1B1F',
+    card: '#1E1E24',
+    box: '#C6B3E5',
+    cardBorder: '#3f355065',
+    text: '#F5F5F5',
+    subtext: '#B0B0B8',
+    border: '#2A2A31',
+    primary: '#9b7dcb',
+    secondary: '#2B2238',
+    icon: '#A1A1AA',
+    tabIconDefault: '#777783',
+    tabIconSelected: '#FFFFFF',
+    success: '#22C55E',
+    danger: '#F87171',
+  },
+};
